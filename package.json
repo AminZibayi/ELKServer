@@ -1,0 +1,17 @@
+{
+  "name": "tpot-elk-visualizer",
+  "version": "1.0.0",
+  "description": "A Node.js server that receives data from a T-Pot (ELK) instance and sends it over websocket to a visualization client.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.6",
+    "http": "0.0.1-security"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
